@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">
+      PLANLAMA  APP
+    </ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">PLANLAMA  APP</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <img src="..//..//assets/MertGizem.png" type="image/png" style="width: 300px;"><br>
+    
+    <div id="login">
+
+      <ion-col class="ion-align-self-center">
+        <ion-row style="justify-content: center;">
+          <h4 class="login-text" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(255, 255, 255);">Hoşgeldiniz</h4>
+        </ion-row>
+        <ion-row style="justify-content: center; width: 200px;   margin: auto; padding: 5px;">
+          <ion-input placeholder="Lütfen adınızı giriniz." id="isim" aria-required="true" style="border:2px solid rgb(51, 38, 38);  width: 50px; ;"></ion-input>
+          
+        </ion-row>
+        <ion-row style="justify-content: center; width: 200px;   margin: auto; padding: 5px;">
+          <ion-input placeholder="Lütfen şifrenizi giriniz." id="password" type="password" aria-required="true" style="border:2px solid rgb(51, 38, 38);  width: 50px; ;"></ion-input>
+        </ion-row>
+        <ion-row style="justify-content: center; padding: 10px;">
+         
+          <ion-button expand="block" fill="outline" color="danger" class="girisyap" (click)="goHome()" >Giriş Yap</ion-button>
+        </ion-row>
+          <br>
+          <ion-row> <strong id="uyari" style="display: none; text-align: center; margin: auto;">Lütfen  <u>kullanıcı adı </u>veya <u>şifreyi</u> doğru giriniz.</strong></ion-row>
+          
+        
+      </ion-col>
+    
+        </div>
+  </div>
+  
+  
+</ion-content>
+<ion-footer>
+  
+</ion-footer>
